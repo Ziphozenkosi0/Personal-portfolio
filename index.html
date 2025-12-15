@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asonwabe Ntshiyantshiya</title>
+    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+    <meta name="description" content="Junior Software Developer specializing in React, JavaScript, and AI-powered applications.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#" class="logo">AN</a>
+            
+            <div class="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#home" class="nav-link active">Home</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+            
+            <div class="nav-actions">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section with Profile Picture -->
+        <section class="hero" id="home">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <span class="hero-subtitle">Hello, I am</span>
+                    <h1 class="hero-title">Asonwabe Ntshiyantshiya</h1>
+                    <h2 class="hero-role">Aspiring Software Developer</h2>
+                    <p class="hero-description">
+                       I created this portfolio to showcase my software development skills, academic foundation, and real-world internship experience. It reflects my journey from formal ICT education to hands-on software development and applied AI training. This portfolio supports my applications for software developer roles, internships, and structured tech programmes.
+                    </p>
+                    
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <i class="fas fa-code"></i> View Projects
+                        </a>
+                        <a href="assets/resume/Asonwabe_Resume.pdf" class="btn btn-secondary" download>
+                            <i class="fas fa-download"></i> Download Resume
+                        </a>
+                    </div>
+                    
+                    <div class="hero-social">
+                        <a href="https://github.com/Ziphozenkosi0" class="social-link" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/asonwabe-ntshiyantshiya-186058275" class="social-link" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:a.ntshiya@gmail.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Hero Profile Picture -->
+                <div class="hero-image">
+                    <div class="profile-container hero-profile">
+                        <img src="assets/images/avatar-hero.jpg" alt="Asonwabe Ntshiyantshiya">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section with Profile Picture -->
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="section-subtitle">Get to know me better</p>
+                </div>
+                
+                <div class="about-grid">
+                    <!-- About Profile Picture -->
+                    <div class="about-image">
+                        <div class="profile-container about-profile">
+                            <img src="assets/images/avatar-about.jpg" alt="Asonwabe at work">
+                        </div>
+                    </div>
+                    
+                    <div class="about-content">
+                        <h3>Passionate Developer & AI Enthusiast</h3>
+                        <p>
+                            I'm an ICT graduate with a strong passion for software development and artificial intelligence. 
+                            I enjoy building practical applications that solve real-world problems and enhance user experiences.
+                        </p>
+                        <p>
+                            My journey includes Software Development Internship at Erisn Africa, where I gained 
+                            hands-on experience with professional development workflows, team collaboration, and modern web technologies.
+                        </p>
+                        <p>
+                            Currently, I'm expanding my expertise through Service Desk & AI Programme, focusing on 
+                            applied AI automation, and IT service operations to complement my software development skills.
+                        </p>
+                        
+                        <div class="about-stats">
+                            <div class="stat">
+                                <h4>1+</h4>
+                                <p>Years Experience</p>
+                            </div>
+                            <div class="stat">
+                                <h4>8+</h4>
+                                <p>Technologies</p>
+                            </div>
+                            <div class="stat">
+                                <h4>4+</h4>
+                                <p>Projects</p>
+                            </div>
+                            <div class="stat">
+                                <h4>5+</h4>
+                                <p>Certifications</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section skills">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Technical Skills</h2>
+                    <p class="section-subtitle">Technologies I work with</p>
+                </div>
+                
+                <div class="skills-grid">
+                    <!-- Frontend Skills -->
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">
+                            <i class="fas fa-laptop-code"></i> Frontend
+                        </h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">HTML/CSS</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">React</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">TypeScript</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Backend & Tools -->
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">
+                            <i class="fas fa-server"></i> Backend & Tools
+                        </h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Java</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Python</span>
+                                    <span class="skill-level">Basic</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 60%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Git/GitHub</span>
+                                    <span class="skill-level">Advanced</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Firebase</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- AI & Others -->
+                    <div class="skill-category">
+                        <h3 class="skill-category-title">
+                            <i class="fas fa-robot"></i> AI & Others
+                        </h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">AI APIs</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Prompt Engineering</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Tailwind CSS</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-info">
+                                    <span class="skill-name">Vite</span>
+                                    <span class="skill-level">Intermediate</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" style="width: 70%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section with Profile Picture -->
+        <section id="experience" class="section experience">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Experience & Education</h2>
+                    <p class="section-subtitle">My professional journey</p>
+                </div>
+                
+                <div class="experience-grid">
+                    <!-- Experience Profile Picture -->
+                    <div class="experience-image">
+                        <div class="profile-container experience-profile">
+                            <img src="assets/images/avatar-experience.jpg" alt="Asonwabe in team">
+                        </div>
+                    </div>
+                    
+                    <div class="timeline">
+                        <!-- CAPACITI -->
+                        <div class="timeline-item">
+                            <div class="timeline-date">October 2025</div>
+                            <div class="timeline-content">
+                                <h3>Service Desk & AI Programme</h3>
+                                <p class="timeline-company">CAPACITI | Durban</p>
+                                <p>Enrolled in applied AI and IT service operations programme:</p>
+                                <ul>
+                                    <li>Applied AI tools and automation workflows</li>
+                                    <li>Building AI-powered applications and prototypes</li>
+                                    <li>IT service desk operations and technical support</li>
+                                    <li>Agile teamwork and professional workplace readiness</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- Erisn Africa -->
+                        <div class="timeline-item">
+                            <div class="timeline-date">September 2024</div>
+                            <div class="timeline-content">
+                                <h3>Software Developer Intern</h3>
+                                <p class="timeline-company">Erisn Africa</p>
+                                <p>Software Development Internship programme with hands-on experience:</p>
+                                <ul>
+                                    <li>Developing and maintaining frontend components</li>
+                                    <li>Implementing UI features based on specifications</li>
+                                    <li>Debugging, testing, and improving application functionality</li>
+                                    <li>Collaborating using structured development workflows</li>
+                                    <li>Applying version control and code organization best practices</li>
+                                </ul>
+                            </div>
+                        </div>
+                        
+                        <!-- Education -->
+                        <div class="timeline-item">
+                            <div class="timeline-date">2020 - 2023</div>
+                            <div class="timeline-content">
+                                <h3>Diploma in ICT</h3>
+                                <p class="timeline-company">Walter Sisulu University</p>
+                                <p>Specialized in Applications Development with coursework in:</p>
+                                <ul>
+                                    <li>Programming in Java</li>
+                                    <li>Information Systems</li>
+                                    <li>Systems Analysis and Design</li>
+                                    <li>Software Development Fundamentals</li>
+                                    <li>Web Technologies and Project Management</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">My Projects</h2>
+                    <p class="section-subtitle">Some of my recent work</p>
+                </div>
+                
+                <div class="projects-grid">
+                    <!-- AI Resume Builder -->
+                    <div class="project-card featured">
+                        <div class="project-image">
+                            <img src="assets/images/projects/ai-resume.jpg" alt="AI Resume Builder">
+                            <div class="project-overlay">
+                                <a href="https://ai-resume-builder-rho-hazel.vercel.app/" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/Ziphozenkosi0/AI-Resume-Builder" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <div class="project-header">
+                                <h3 class="project-title">AI Resume Builder</h3>
+                                <span class="project-badge">Featured</span>
+                            </div>
+                            <p class="project-description">
+                                AI-powered resume builder that generates customized, ATS-friendly resumes 
+                                based on user input. Built with React, TypeScript, and AI APIs.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">TypeScript</span>
+                                <span class="tech-tag">Tailwind CSS</span>
+                                <span class="tech-tag">AI APIs</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Todo List App -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/projects/todo-app.jpg" alt="Todo List App">
+                            <div class="project-overlay">
+                                <a href="https://ziphozenkosi0.github.io/todo-list-app/" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/Ziphozenkosi0/todo-list-app" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Todo List Application</h3>
+                            <p class="project-description">
+                                Web-based task management application that allows users to add, 
+                                remove, and store tasks locally in the browser.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Expense Tracker -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/projects/expense-tracker.jpg" alt="Expense Tracker">
+                            <div class="project-overlay">
+                                <a href="https://expense-tracker-ten-peach-83.vercel.app/" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/Ziphozenkosi0/expense-tracker" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Expense Tracker</h3>
+                            <p class="project-description">
+                                React-based application for tracking and managing daily expenses
+                                with visual spending insights and category management. Features
+                                include expense filtering, charts, and local storage.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">HTML</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Sentient AI Project -->
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="assets/images/projects/sentiment.jpg" alt="Sentient AI">
+                            <div class="project-overlay">
+                                <a href="https://sentimentsearch.netlify.app/" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                                <a href="https://github.com/KiroshenNaidu/Sentient" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-content">
+                            <h3 class="project-title">Sentient AI</h3>
+                            <p class="project-description">
+                                AI-powered sentiment analysis application that processes text/documents to classify sentiment, 
+                                extract keywords, and generate explanations using Google Gemini API and Firebase.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Next.js</span>
+                                <span class="tech-tag">Firebase</span>
+                                <span class="tech-tag">Gemini AI</span>
+                                <span class="tech-tag">TypeScript</span>
+                            </div>
+                            <div class="project-links">
+                                <small>Group Project | AI/ML Focus</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get In Touch</h2>
+                    <p class="section-subtitle">Let's work together</p>
+                </div>
+                
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <p>I am open to software development opportunities, internships, and collaborations.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h4>Email</h4>
+                                    <a href="mailto:a.ntshiya@gmail.com">a.ntshiya@gmail.com</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-phone"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h4>Phone</h4>
+                                    <a href="tel:+27738086691">073 808 6691</a>
+                                </div>
+                            </div>
+                            <div class="contact-item">
+                                <div class="contact-icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div class="contact-content">
+                                    <h4>Location</h4>
+                                    <p>Durban, South Africa</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <form id="contactForm" action="https://formspree.io/f/xkgdawaa" method="POST">
+    <div class="form-group">
+        <input type="text" name="name" placeholder="Your Name" required>
+    </div>
+    <div class="form-group">
+        <input type="email" name="email" placeholder="Your Email" required>
+    </div>
+    <div class="form-group">
+        <input type="text" name="subject" placeholder="Subject" required>
+    </div>
+    <div class="form-group">
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+    </div>
+    
+    <!-- Optional: Thank you page redirect -->
+    <!-- <input type="hidden" name="_next" value="https://yourportfolio.com/thank-you.html"> -->
+    
+    <button type="submit" class="btn btn-primary">
+        <i class="fas fa-paper-plane"></i> Send Message
+    </button>
+</form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <a href="#" class="footer-logo">Asonwabe</a>
+                    <p>Aspiring Software Developer specializing in modern web technologies and AI integration.</p>
+                </div>
+                
+                <div class="footer-social">
+                    <a href="https://github.com/Ziphozenkosi0" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/asonwabe-ntshiyantshiya-186058275" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:a.ntshiya@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Asonwabe Ntshiyantshiya. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
+
