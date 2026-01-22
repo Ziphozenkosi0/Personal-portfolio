@@ -83,7 +83,7 @@
                 <!-- Hero Profile Picture -->
                 <div class="hero-image">
                     <div class="profile-container hero-profile">
-                        <img src="assets/images/avatar.jpg" alt="Asonwabe Ntshiyantshiya">
+                        <img src="assets/images/avatar-about.jpg" alt="Asonwabe Ntshiyantshiya">
                     </div>
                 </div>
             </div>
@@ -302,7 +302,7 @@
                     <!-- Experience Profile Picture -->
                     <div class="experience-image">
                         <div class="profile-container experience-profile">
-                            <img src="assets/images/avatar-experience.jpg" alt="Asonwabe in team">
+                            <img src="assets/images/avatar-about.jpg" alt="Asonwabe in team">
                         </div>
                     </div>
                     
@@ -550,7 +550,7 @@
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; <span id="currentYear"></span> Asonwabe Ntshiyantshiya. All rights reserved.</p>
+                <p>&copy; <span id="2025"></span> Asonwabe Ntshiyantshiya. All rights reserved.</p>
             </div>
         </div>
     </footer>
